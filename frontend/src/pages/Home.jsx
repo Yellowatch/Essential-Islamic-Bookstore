@@ -1,21 +1,18 @@
-import React, { useEffect, useState } from 'react';
-import axios from 'axios';
-import Spinner from '../components/Spinner';
-import { Link } from 'react-router-dom';
-import { AiOutlineEdit } from 'react-icons/ai';
-import { BsInfoCircle } from 'react-icons/bs';
-import { MdOutlineAddBox, MdOutlineDelete } from 'react-icons/md';
-import BooksTable from '../components/admin/BooksTable';
-import BooksCard from '../components/admin/BooksCard';
+import React from 'react';
 import HeroSection from '../components/Hero/HeroSection';
+import MyBooks from '../components/books/Books';
+import AboutMe from '../components/About-Me/AboutMe'
+import ContactMe from '../components/Contact-Me/ContactMe'
+import CTA from '../components/CTA-Section/CTA'
 
 const Home = () => {
-
   return (
     <div>
       <HeroSection />
-      <div>
-      </div>
+      <MyBooks />
+      <CTA />
+      <AboutMe />
+      <ContactMe />
     </div>
   );
 };

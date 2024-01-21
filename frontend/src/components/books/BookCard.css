@@ -1,0 +1,140 @@
+/* BookCard.css */
+
+.book-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 16px 0;
+    display: flex;
+    background-color: aliceblue;
+    width: 100%;
+}
+
+/* .book-card:hover {
+    transform: scale(1.05);
+  } */
+
+.book-image {
+    max-width: 500px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.book-details {
+    padding: 16px;
+    width: 50%;
+
+    @media screen and (max-width: 991px) {
+        width: 100%;
+    }
+}
+
+.book-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.book-description {
+    font-size: 0.9rem;
+    margin-bottom: 12px;
+    white-space: pre-line;
+}
+
+.book-links {
+    margin-top: 12px;
+}
+
+.book-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.book-links p {
+    margin-top: 30px;
+    font-size: 1.2rem;
+}
+
+.book-links li {
+    margin-bottom: 4px;
+}
+
+.book-links a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.book-links a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+@media (max-width: 768px) {
+
+    .book-card {
+        flex-direction: column;
+    }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap");
+.App-header {
+  font-size: 1rem;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  padding-bottom: 2rem;
+}
+.carousel-images {
+  position: relative;
+  border-radius: 10px;
+  height: 400px;
+  max-width: 650px;
+  margin: auto;
+  overflow: hidden;
+}
+.carousel-images img {
+  width: 99%;
+  height: 99%;
+  border-radius: 8px;
+  border: #ff00008e solid 2px;
+}
+.slide_direction {
+  display: flex;
+  justify-content: space-between;
+}
+.left,
+.right {
+  background-color: #fb666675;
+  color: #fff;
+  padding: 10px 8px 8px 13px;
+  margin: 0 20px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 10px;
+  height: 25px;
+  width: 25px;
+}
+.left {
+  left: 0;
+}
+.right {
+  right: 0;
+}
+.carousel-indicator {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.dot {
+  background-color: #333;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+.active {
+  background-color: #fa2020;
+}
