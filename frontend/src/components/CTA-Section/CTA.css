@@ -1,0 +1,14 @@
+.cta-section {
+    min-height: 30vh;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(dodgerblue, rgb(172, 212, 252));
+}
+
+.container {
+    max-width: 1200px;
+    padding-left: 24px;
+    padding-right: 24px;
+}

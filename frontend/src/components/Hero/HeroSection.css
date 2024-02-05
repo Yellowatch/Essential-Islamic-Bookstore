@@ -1,27 +1,52 @@
+/* Default styles for larger screens */
 .hero-section {
-    /* background: url('patterns.jpg') no-repeat center center; */
-    background-color: yellow;
+    background-color: dodgerblue;
+    background-image: linear-gradient(dodgerblue, white);
     background-size: cover;
-    height: 70vh;
-    color: black; /* Text color */
+    height: 80vh;
+    color: black;
     text-align: left;
-
     display: flex;
     align-items: center;
 }
 
-.hero-section h1 {
-    font-size: 3rem;
-    font-weight: bold;
-    margin-bottom: 20px;
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.hero-section p {
-    font-size: 1.5rem;
-    margin-bottom: 30px;
+.text-content {
+    max-width: calc(100% - 320px);
 }
 
-.hero-section Button {
-    font-size: 1.2rem;
+.button-content {
+    margin-left: 20px;
 }
 
+.image-content img {
+    max-width: 500px;
+    height: auto;
+    /* transform: rotate(5deg); */
+}
+
+/* Media query for smaller screens (adjust the max-width as needed) */
+@media (max-width: 768px) {
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text-content {
+        max-width: 100%;
+    }
+
+    .image-content {
+        display: none;
+    }
+
+    .button-content {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
