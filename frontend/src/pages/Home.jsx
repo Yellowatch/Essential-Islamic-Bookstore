@@ -4,6 +4,7 @@ import MyBooks from '../components/books/Books';
 import AboutMe from '../components/About-Me/AboutMe'
 import ContactMe from '../components/Contact-Me/ContactMe'
 import CTA from '../components/CTA-Section/CTA'
+import Footer from '../components/Footer/Footer';
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <CTA />
       <AboutMe />
       <ContactMe />
+      <Footer />
     </div>
   );
 };

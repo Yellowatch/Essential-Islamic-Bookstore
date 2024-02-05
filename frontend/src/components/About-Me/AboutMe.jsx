@@ -32,14 +32,27 @@ const AboutMe = () => {
                             </h1>
                         </div>
                         <p class="mb-6 text-base leading-7 text-gray-500 dark:text-gray-400">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam Lorem ipsum dolor sit
-                            amet. labore et dolore magna aliqua. Ut enim ad minim veniam Lorem ipsum dolor sit
-                            amet. amet. labore et dolore magna aliqua. Ut enim ad minim veniam Lorem ipsum dolor sit
-                            amet.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            Lorem ipsum dolor sit amet.
+                            SALIH HAKKI BAK was born in Trabzon, Turkiye. He completed his Bachelor of Theology at Samsun University, and later completed his Masters in Islamic History from the same University. He worked as a secondary school teacher in the department of national education in Turkiye for eight years.
+                            <br></br><br></br>
+                            In 1995, he obtained a master’s degree from Samsun’s 19 May University with a thesis on the life of one of the first Muslims; ‘Abu Ubayda Ibn Jarrah’.
+                            <br></br><br></br>
+                            Later, in 1998, he moved to Australia and acquired a diploma in secondary education from Victoria University in Melbourne. He has since taught a range of subjects from LOTE to Qur’an and Islamic Studies at a private Islamic College in Victoria.
+                            <br></br><br></br>
+                            He has well over 35 years of experience teaching Islamic Studies and Qur’an both abroad and in Australia. He also had coordination positions in Islamic Education for both primary and secondary schooling.
+                            <br></br><br></br>
+                            He was also appointed as head of Faith and Curriculum developer in his areas of expertise.
+                            <br></br><br></br>
+                            His published books are:
+                            <br></br>
+                            1. Fundamental Beliefs of Islam
+                            <br></br>
+                            2. Essential Beliefs & Practices in Islam
+                            <br></br>
+                            3. A Guide to Learn How to Read the Qur’an with Tajweed Rules
+                            <br></br>
+                            4. A Guide to Learn Tajweed Rules.
+                            <br></br>
+                            5. Arabic Writing and Reading Activity Boo
                         </p>
                     </div>
                 </div>

@@ -15,6 +15,7 @@
 .nav-text {
     margin: 0 30px;
     letter-spacing: 1px;
+    text-align: center;
 }
 
 /* Media query for smaller screens (adjust the max-width as needed) */
