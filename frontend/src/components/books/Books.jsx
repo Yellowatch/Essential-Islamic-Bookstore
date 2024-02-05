@@ -189,7 +189,12 @@ const Books = () => {
 
     return (
         <div id='books' className="books-container">
-            <h1 className='books-header'>My Books</h1>
+            <div className='books-header-container'>
+                <div className='header-border'>
+                    <h1 className='books-header'>MY BOOKS</h1>
+                </div>
+            </div>
+
             <div className='two-column'>
                 {booksData.map((book, index) => (
                     <BookCard key={index} {...book} />
