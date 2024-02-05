@@ -25,18 +25,3 @@ export default class ImgGroup extends Component {
         );
     }
 }
-
-
-
-// const ImgGroup = ({ images }) => {
-
-//   return (
-//     <div data-slick='{"slidesToShow": 4, "slidesToScroll": 4}'>
-//         {images.map((image, index) => (
-//           <img src={image} />
-//         ))}
-//     </div>
-//   );
-// };
-
-// export default ImgGroup;
