@@ -1,5 +1,7 @@
 /* BookCard.css */
 
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap");
+
 .book-card {
   border: 1px solid #ddd;
   border-radius: 8px;
@@ -125,8 +127,6 @@
     flex-direction: column;
   }
 }
-
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap");
 
 .App-header {
   font-size: 1rem;

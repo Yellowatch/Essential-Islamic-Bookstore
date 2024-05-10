@@ -5,34 +5,25 @@ import {
     FiGlobe,
     FiYoutube,
     FiInstagram,
+    FiFacebook,
 } from "react-icons/fi";
 
 const socialLinks = [
     {
         id: 1,
-        icon: <FiGlobe />,
-        url: "https://www.stoman.me/",
+        icon: <FiFacebook />,
+        url: "https://m.facebook.com/profile.php/?id=61556630554271&name=xhp_nt__fb__action__open_user",
     },
     {
         id: 2,
         icon: <FiInstagram />,
-        url: "https://github.com/",
+        url: "https://www.instagram.com/essentialislamicbooks/",
     },
     {
         id: 3,
-        icon: <FiTwitter />,
-        url: "https://twitter.com/",
-    },
-    {
-        id: 4,
         icon: <FiLinkedin />,
         url: "https://www.linkedin.com/in/salih-bak-8b34a171/?originalSubdomain=au",
     },
-    // {
-    //   id: 5,
-    //   icon: <FiYoutube />,
-    //   url: "https://www.youtube.com/c/",
-    // },
 ];
 
 const Footer = () => {
