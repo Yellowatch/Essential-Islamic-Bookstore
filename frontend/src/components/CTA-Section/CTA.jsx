@@ -1,14 +1,17 @@
 import React from 'react'
 import './CTA.css'
+import { useTranslation } from 'react-i18next';
 
 const CTA = () => {
+  const { t } = useTranslation();
+
   return (
     <section className='cta-section'>
       <div className='container'>
-        <h1>Interested in any of these books?</h1>
-        <p>Send an enquiry through the contact form.</p>
+        <h1>{t("CTA1")}</h1>
+        <p>{t("CTA2")}</p>
         <div>
-        <a href="#contact" type="button" className="btn btn-outline-dark">Enquire</a>
+        <a href="#contact" type="button" className="btn btn-outline-dark">{t("enquire")}</a>
         </div>
       </div>
     </section>
