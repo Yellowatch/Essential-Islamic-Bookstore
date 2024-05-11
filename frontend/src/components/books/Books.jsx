@@ -14,10 +14,19 @@ const Books = () => {
             title_tr: 'İSLAM\'IN TEMEL İNANÇLAR VE AHLAK KURALLAR KITABI',
             description: `
                 <p><strong>Fundamental Beliefs of Islam</strong> is a one-in-all Islamic book designed to facilitate the audience of all ages with an easy understanding of its content. It is structured comprehensively with an in-depth description of the pillars of faith, the basic principles of Islam, and the tenets of Islamic Ethics.</p>
-                <p>To enable easy learning and understanding, this book consists of 2 parts; The first section includes in-depth description of the pillars of faith and the basic principles of Islamic beliefs. And the second part covers Islamic Ethics including good character and moral etiquettes in Islam.</p>
                 <h5 class='purpose-header'>The Purpose of the Book is:</h5>
                 <p>To provide the readers of all ages and of all faiths and practices, both religious and non-religious, with an insight into the six pillars of Islam extending to general and specific Islamic Ethics.</p>
-                <p>By Salih Hakki Bak, 320 pages</p>
+                <h5 class='purpose-header'>To summarize the purpose of a book, it usually includes:</h5>
+                <ul>
+                    <li><strong>Explain the basic beliefs of Islam:</strong> This covers topics such as belief in Allah, prophets, books, angels, fate, and the afterlife. </li>
+                    <li><strong>Teaching the ethical principles of Islam:</strong> These emphasize moral values such as justice, mercy, patience, tolerance, honesty, and truthfulness. </li>
+                    <li><strong>Encouraging the reader's spiritual development:</strong> Encourages them to live a more conscious and virtuous life in line with the teachings of Islam. </li>
+                </ul>
+                <h5 class='purpose-header'>The Fundamental Beliefs and Ethics of Islam Book consists of 2 parts:</h5>
+                <ul>
+                    <li><strong>In the first part</strong>, the pillars of faith and the basic principles of the Islamic faith are explained in detail. </li>
+                    <li><strong>In the second part</strong>, covers Islamic Ethics including good character and moral etiquettes in Islam. </li>
+                </ul>
                 `,
             description_tr: `
                 <p><strong>İSLAM'IN TEMEL İNANÇLAR VE AHLAK KURALLAR KITABI</strong>, her yaşta okuyucunun içeriğinin kolay anlaşılmasını saglamak için tasarlanmış ve kaleme alinmis, bir kitaptır.</p>
@@ -66,17 +75,19 @@ const Books = () => {
             title_tr: 'İSLAM’IN TEMEL ŞARTLARI VE UYGULAMALAR',
             description: `
                 <p class='quote'> Allah says: "Worship your Lord until certainty (death) comes to you" (Qur'an: 15:99) </p>
-                <p> <strong>‘Essential Beliefs and Practices in Islam’</strong> is a one-in- all Islamic book structured comprehensively with an in-depth explanation of the pillars of Islam. it involves all basic knowledge about the five pillars of Islam. In this book, everything a Muslim need in his daily life is covered with illustrations and explanations. Every chapter begins with keywords, learning outcomes. Verses and hadiths have been provided to explain the text’s meaning and transliterations are included for those who are not well-versed in Arabic. <span class='bracket'>(Covered all that is needed in the daily life of a Muslim with illustrations and explanations.) </span> </p>
-                <p> It is designed to facilitate the audience of all ages with an easy understanding of its content. </p>
-                <p> The Format of this Book is designed to facilitate easy learning. It is structured into two main sections are: </p>
-                <p> <strong>Section A</strong> the essential principles of Islam for all audiences. it includes all basic knowledge about the five pillars of Islam with their practical actions and their rules such as Islamic hygiene, purification, how to preform prayer, giving alms (Zakat) Fasting and their rules, sins in Islam, asking forgiveness and repentance. </p>
-                <p> <strong>Section B (Supplication)</strong> which is essential supplication for the daily life of a Muslim to ask God for His help, mercy, and forgiveness included such as anxiety, difficulty, distress, depression, general health, </p>
-                <h5 class='purpose-header'> The Purpose of Preparing the Book is: </h5>
+                <p> <strong>‘Essential Beliefs and Practices in Islam’</strong> is a one-in- all Islamic book structured comprehensively with an in-depth explanation of the pillars of Islam. it involves all basic knowledge about the five pillars of Islam. </p>
+                <h5 class='purpose-header'> In This Book: </h5>
                 <ul>
-                    <li>To provide the readers, both Muslims and Non-Muslims, with a perception to the five pillars of Islam in the religion. </li>
-                    <li>To facilitate the easy understanding of the essential principles of Islam for all audiences – young, the elderly and learners </li>
+                    <li>Every chapter begins with keywords, learning outcomes. </li>
+                    <li>Verses and hadiths have been provided to explain the text’s meaning and transliterations are included for those who are not well-versed in Arabic. </li>
+                    <li>Covered all that is needed in the daily life of a Muslim with illustrations and explanations. </li>
+                    <li>The format of this book is designed to facilitate the audience of all ages with an easy understanding of its content. </li>
                 </ul>
-                By Salih Hakki Bak, 278 pages
+                <p>It is structured into <strong>two main sections</strong> are:</p>
+                <ul>
+                    <li><strong>Section A</strong> the essential principles of Islam for all audiences. it includes all essential knowledge about the five pillars of Islam with their practical actions and their rules such as Islamic hygiene, purification, how to preform prayer, giving alms (Zakat) Fasting and their rules, sins in Islam, asking forgiveness and repentance. </li>
+                    <li><strong>Section B (Supplication)</strong> which is essential supplication for the daily life of a Muslim to ask God for His help, mercy, and forgiveness included such as anxiety, difficulty, distress, depression, general health. </li>
+                </ul>
                 `,
             description_tr: `
                 <p class='quote'>Allah şöyle buyuruyor <strong>"Sana Ölüm Gelinceye Kadar Rabbine Kulluk Et."</strong> (Kur'an: 15:99).</p>
@@ -133,18 +144,17 @@ const Books = () => {
                 <h5 class='purpose-header'> The Aims and Purpose of This Book: </h5>
                 <ul>
                     <li>This book provides easy step by step processes, for beginners, intermediate and advanced learners. </li>
-                    <li>This book provides the quickest and easiest way to learn and start to read the Holy Qur’an. <span class='bracket'>( This book offers the fastest and easiest way to learn and start reading the Holy Quran.)</span> </li>
-                    <li>This book allows learners to have a quicker transition into reading the Qur’an. </li>
-                    <li>Each unit has an explanation in English of the topic. Examples are given in Arabic and in English. Learner without much assistance can read the Alif Baa easily. </li>
+                    <li>This book provides the quickest and easiest way to learn and start to read the Holy Qur’an. Learner without much assistance can read the Alif Baa easily. </li>
+                    <li>Each unit has an explanation in English of the topic. Examples are given in Arabic and in English. </li>
                     <li>It is fully coloured. The most important Tajweed rule have been explained using colour code and assist the learner to recognise the rule easily. </li>
                     <li>The book encourages the learner to gain more confidence and motivates him when learning the Holy Qur’an. </li>
                 </ul>
-                <h5 class='purpose-header'> Note: This book has two parts, which are: </h5>
+                <h5 class='purpose-header'> Note: <strong>This book has two parts, which are</strong>: </h5>
                 <ul>
                     <li>A Step-by-Step Guide to Learning & Reading the Holy Qurʼan (Alif Baa) and </li>
                     <li>Essential Five Prayer Duas & Short Surahs Section up to Surah Ad-Dhuha with English transliteration and their meanings. </li>
                 </ul>
-                By Salih Hakki Bak, 105 pages`,
+                `,
             description_tr: `
                 <p>Bu kitabın amacı şunlardır:</p>
                 <ul>
@@ -184,14 +194,12 @@ const Books = () => {
             title: 'Arabic Writing and Reading Activity Book',
             title_tr: 'ARAPÇA YAZMA VE OKUMA AKTIVITE KİTABI',
             description: `
-                <h5 class='purpose-header'> The Learner Will Develop: </h5>
-                <p> Arabic Writing and Reading Activity Book' has been prepared to ensure that beginners are <strong>equipped with the sufficient knowledge and skills</strong> to learn the easiest way to write, learn, and recite the Arabic letters and short vowels in all forms correctly </p>
-                <h5 class='purpose-header'> After Using and Completing Arabic Writing and Reading Activity Book: </h5>
+                <h5 class='purpose-header'> The Purpose of This Book: </h5>
                 <ul>
-                    <li>Learners will be equipped with the adequate knowledge and skill to write the Arabic alphabet and words. </li>
-                    <li>Learner will learn and have a deeper understanding of the short vowels fathah, kasrah and dammah which will allow learners to write and read the Arabic words in an appropriate manner. </li>
+                    <li>The "Arabic Writing and Reading Activity Book" has been carefully prepared to provide beginners with the necessary knowledge and skills and abilities to easily grasp the writing, learning, and recitation of Arabic letters long and short vowels in various forms. </li>
+                    <li>Upon completion of the book, learners will possess sufficient proficiency to write the Arabic alphabet and words effectively. Furthermore, they will gain a comprehensive understanding of the short vowels—FATHAH, KASRAH, and DAMMAH—which will enable them to accurately write and read Arabic words. </li>
                 </ul>
-                By Salih Hakki Bak, 88 pages`,
+                `,
             description_tr: `
                 <p>Bu Kitabın amaci:</p>
                 <ul>
@@ -225,12 +233,7 @@ const Books = () => {
                 <ul>
                     <li>Recite the Qur'an with correct pronunciation, </li>
                     <li>Follow the rules of Tajweed and be able to explain the rules of Tajweed. </li>
-                </ul>
-                <h5 class='purpose-header'>This Book Includes: </h5>
-                <ul>
-                    <li>Easy and comprehensive units for Beginners, Intermediate and Advance Level learners. </li>
                     <li>The most important Tajweed rules have been explained using colour codes and assists the learner to recognise the rule easily. </li>
-                    <li>The book encourages the learner to gain more confidence and motivates him when learning the Holy Qur'an. </li>
                     <li>Giving examples allows learners to recognise and learn the rules of Tajweed easily. </li>
                 </ul>
                 `,
