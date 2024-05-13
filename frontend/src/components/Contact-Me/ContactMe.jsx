@@ -13,7 +13,10 @@ const ContactMe = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_v4ckj2d', 'template_7mcozlt', form.current, 'A4jJvcZAVv2FpNl2m')
+        templateId = 'template_wwi1ee6'
+        publicKey = 'b64CyvxpIiL7d_bs1'
+
+        emailjs.sendForm('service_v4ckj2d', templateId, form.current, publicKey)
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
