@@ -32,6 +32,11 @@ const ContactMe = () => {
             });
     };
 
+    const removeMessage = (e) => {
+        setSuccessMessage('');
+        setErrorMessage('');
+    }
+
     return (
         <section id='contact' class="dark:bg-gray-900">
             <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
@@ -58,8 +63,8 @@ const ContactMe = () => {
                 </form>
                 
                 {/* Display success or error message */}
-                {successMessage && <Alert severity="success">{successMessage}</Alert>}
-                {errorMessage && <Alert severity="error">{errorMessage}</Alert>}
+                {successMessage && <Alert variant="filled" severity="success" onClose={removeMessage}>{successMessage}</Alert>}
+                {errorMessage && <Alert variant="filled" severity="error" onClose={removeMessage}>{errorMessage}</Alert>}
             </div>
         </section>
     );
