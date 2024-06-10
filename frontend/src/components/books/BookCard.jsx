@@ -17,6 +17,7 @@ const BookCard = ({ title, title_tr, description, description_tr, links, images 
       <div className="book-details">
         <h1 className="book-title">{i18n.language == 'tr' ? (title_tr) : (title)}</h1>
         <div className='description-links-container'>
+          <div className='tabs'></div>
           {i18n.language == 'tr' ? (
             <p className="book-description" dangerouslySetInnerHTML={{ __html: description_tr }} />
           ) : (

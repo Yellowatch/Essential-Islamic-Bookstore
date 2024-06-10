@@ -44,6 +44,34 @@ const Books = () => {
                     <li>İkinci bölümde ise İslam'da güzel ahlak ve ahlak kurallar konusu ele alınmaktadır. </li>
                 </ul>
                 `,
+            contents:`
+            1. WHAT IS RELIGION? THE AIM OF RELIGIONS
+            2. FAITH -CREED (AQEEDAH) IN ISLAM
+            3. HOW TO CONVERT TO ISLAM AND BECOME A MUSLIM
+            4. THE IMPORTANCE OF IMAN/ TYPES OF IMAN-
+            5. SHIRK (POLYTHEISM) AND KUFR (DISBELIEF)
+            6. BELIEF IN ALLAH (GOD)
+            7. BELIEF IN THE ANGELS (WA MALAIKATEHI)
+            8. SHAITAN AND JINN
+            9. THE FOUR MAJOR BOOKS (WA KUTUBIHI)
+            10. HOLY QUR’AN AND REVELATION -WAHIY)-
+            11. BELIEF IN THE PROPHETS & MESSENGERS
+            12. WHY WAS PROPHET MUHAMMAD (SAW) WAS SENT?
+            13. FAMILY TREE OF THE PROPHET MUHAMMAD (SAW)
+            14. THE LAST DAY – LIFE AFTER DEATH
+            15. THE SIGNS OF THE DAY OF JUDGEMENT
+            16. STAGES IN THE LIFE OF THE HERE AFTER
+            17. JAHANNAM (HELL-FIRE)
+            18. PARADISE (JANNAH)
+            19. TO BELIEVE IN DESTINY (QADAR)
+            20. HOW FAITH(IMAN) INCREASES AND DECREASES
+            21. QUALITIES OF TRUE BELIEVERS
+            22. THE ROLE OF THE HEART
+            23. WHICH ACTIONS IN ISLAM INCREASE THE FAITH OF A BELIEVER.
+            24. ISLAMIC ETHICS /MANNERS
+            25. QUALITIES OF TRUE BELIEVERS
+            26. NO RACISM IN ISLAM /KEEPING PROMISES ETC.
+            `,
             links: [
                 { label: 'Fajr Noor', url: 'https://fajrnoor.com/products/fundamental-beliefs-of-islam' },
             ],
@@ -105,6 +133,35 @@ const Books = () => {
                     <li><strong>ikinci(Dua) bölümde ise:</strong> Bir Müslümanın günlük hayatında karşılaştıkları olumlu, olumsuz olaylarla ilgili olarak Allah'tan yardım, rahmet ve mağfiret dilemesi için gerekli olan dualara yer verilmiştir.(zorluk, sıkıntı, depresyon, genel sağlık vs..)</li>
                 </ul>
                 `,
+            contents:`
+            1. SOURCES Of ISLAM (ADILLA-I SHAR’IYYAH)
+            2. WHAT IS MADHHAB (SCHOOLS OF THOUGHT) AND THEIR IMAMS.
+            3. ACTIONS Of THE RESPONSIBLE [AF’ALI MUKALLAFIN].
+            4. ISLAMIC HYGIENE AND PURIFICATION(TAHARAH)
+            5. THE RULING FOR WEARING FOOTGEAR (KHUFFAIN)
+            6. WUDHU (ABLUTION) IN ISLAM
+            7. GHUSL (PURIFICATION BATH)
+            8. TAYAMMUM (DRY PURIFICATION)
+            9. THE FIVE PILLARS Of ISLAM.
+            10. TO TESTIFY -DECLARATION Of FAITH (SHAHADAH)
+            11. PRAYER (SALAH) / HOW TO PRAY STEP BY STEP
+            12. SAJDAH-E SAHW (PROSTRATION OF FORGETFULNESS)
+            13. ADHAN AND IQAMAH
+            14. HOW TO PERFORM PRAYER / TASBEHAAT DUAS TO BE RECITED AFTER PRAYER.
+            15. RULES WHILE PRAYING BEHIND AN IMAM/ QADHA (COMPENSATION/ MISSED) PRAYER
+            16. FRIDAY (JUM’AH) PRAYER
+            17. THE FUNERAL PRAYER (SALAH Of JANAZAH).
+            18. TRAVELLER’S PRAYER (SALAATU’L-MUSAAFIR)
+            19. ZAKAT (GIVING ALMS) - COMPULSORY CHARITY
+            20. HAJJ (THE PILGRIMAGE) &UMRAH
+            21. EID PRAYERS
+            22. QURBAN (SACRIFICING) AND ITS RULES
+            23. FASTING (SAWM) /LAILATUL QADR (THE NIGHT Of POWER)
+            24. YAMEEN (VOW, OATH) AND ITS TYPES
+            25. SINS IN ISLAM
+            26. ASKING FORGIVENESS (ISTIGHFAAR) AND TAWBAH (REPENTENCE)
+            27. SUPPLICATION (DUA) SECTION.
+            `,
             links: [
                 { label: 'Fajr Noor', url: 'https://fajrnoor.com/products/essential-beliefs-practices-in-islam' },
             ],
@@ -170,6 +227,30 @@ const Books = () => {
                     <li>Günlük namazlarda okunan dualar ve anlamları ile birlikte Fatiha Suresi'nden Duha Suresi'ne kadar olan surelerin okunuşları ve anlamlarını içeren bölüm. </li>
                 </ul>
                 `,
+            contents:`
+            1. RULES OF TAJWEED/WHAT DOES TAJWEED MEAN?
+            2. WHAT IS THE PURPOSE OF TAJWEED?
+            3. HARF AND HURUUFU’L MADD - TYPES OF MADD
+            4. TABEE’EE MADD (NATURAL PROLONGATION)
+            5. MADD MUTTASI
+            6. MADD MUNFASIL
+            7. SUKUUN LAAZIM AND SUKUUN AARIDH
+            8. MADD LAAZIM AND TYPES OF MADD LAAZIM
+            9. MADD AARIDH
+            10. MADD LEEN
+            11. IDGHAAM AND LDGHAAM MAAL GHUNNAH
+            12. IDGHAAM BILAA GHUNNAH AND IDGHAAM SHAFAWI.
+            13. IDGHAAM SHAMSIYYAH
+            14. TYPE OF IDGHAAM MITHLAYN
+            15. QALQALAH
+            16. DHAMIR (PERSONAL PRONOUN)
+            17. RULES OF READING KALIMATULLAH (LAFDHATULLAH)
+            18. THE RULES OF RAA (HUKMU’R RAA)
+            19. RULES OF STOPPING AND PAUSING (WAQF)
+            20. SAKTAH (BREATHLESS PAUSE)/ SAJDAH TILAAWAH (PROSTRATION OF RECITATION)
+            21. SYMBOLS AND STOPPING OR PAUSING SIGNS IN THE QUR'AN
+            22. HURUUFU MUQATTA’AT (ABBREVIATION LETTERS)
+            `,
             links: [
                 { label: 'Fajr Noor', url: 'https://fajrnoor.com/products/a-guide-to-learn-how-to-read-the-quran' },
             ],
