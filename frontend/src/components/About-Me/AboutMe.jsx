@@ -7,15 +7,15 @@ const AboutMe = () => {
     const { i18n, t } = useTranslation();
 
     return (
-        <section id='about' class="flex items-center bg-stone-100 xl:h-screen font-poppins dark:bg-gray-800 ">
-            <div class="justify-center flex-1 max-w-6xl py-4 mx-auto lg:py-6 md:px-6">
-                <div class="flex flex-wrap ">
-                    <div class="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
-                        <div class="relative lg:max-w-md">
-                            <img src={imageSrc} alt="aboutimage" class="relative z-10 object-cover w-full rounded h-96" />
-                            <div class="absolute bottom-0 right-0 z-10 p-8 bg-white border-4 border-blue-500 rounded shadow dark:border-blue-400 lg:-mb-8 lg:-mr-11 sm:p-8 dark:text-black-300 dark:bg-gray-800 ">
-                                <p class="text-lg font-semibold md:w-72">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="absolute top-0 left-0 w-16 h-16 text-blue-700 dark:text-black-300 opacity-10" viewBox="0 0 16 16">
+        <section id='about' className="flex items-center bg-stone-100 xl:h-screen font-poppins dark:bg-gray-800 ">
+            <div className="justify-center flex-1 max-w-6xl py-4 mx-auto lg:py-6 md:px-6">
+                <div className="flex flex-wrap ">
+                    <div className="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
+                        <div className="relative lg:max-w-md">
+                            <img src={imageSrc} alt="aboutimage" className="relative z-10 object-cover w-full rounded h-96" />
+                            <div className="absolute bottom-0 right-0 z-10 p-8 bg-white border-4 border-blue-500 rounded shadow dark:border-blue-400 lg:-mb-8 lg:-mr-11 sm:p-8 dark:text-black-300 dark:bg-gray-800 ">
+                                <p className="text-lg font-semibold md:w-72">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="absolute top-0 left-0 w-16 h-16 text-blue-700 dark:text-black-300 opacity-10" viewBox="0 0 16 16">
                                         <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z">
                                         </path>
                                     </svg> Allah Is The Protector Of Those Who Have Faith: From The Depths Of Darkness, He Will Lead Them Forth Into Light. – Quran 2:257
@@ -23,16 +23,16 @@ const AboutMe = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="w-full px-6 mb-10 lg:w-1/2 lg:mb-0 ">
-                        <div class="pl-4 mb-6 border-l-4 border-blue-500 ">
-                            <span class="text-sm text-gray-600 uppercase dark:text-gray-400">{t("who")}</span>
-                            <h1 class="mt-2 text-3xl font-black text-gray-700 md:text-5xl dark:text-gray-300">
+                    <div className="w-full px-6 mb-10 lg:w-1/2 lg:mb-0 ">
+                        <div className="pl-4 mb-6 border-l-4 border-blue-500 ">
+                            <span className="text-sm text-gray-600 uppercase dark:text-gray-400">{t("who")}</span>
+                            <h1 className="mt-2 text-3xl font-black text-gray-700 md:text-5xl dark:text-gray-300">
                                 Salih Hakki Bak
                             </h1>
                         </div>
-                        <p class="mb-6 text-base leading-7 text-gray-500 dark:text-gray-400">
+                        <p className="mb-6 text-base leading-7 text-gray-500 dark:text-gray-400">
                             {i18n.language == 'tr' ? (
-                                <div>
+                                <>
                                     SALIH HAKKI BAK Trabzon'da doğdu. Lisans eğitimini Samsun Üniversitesi İlahiyat Fakültesi'nde tamamladıktan sonra aynı üniversitede İslam Tarihi alanında yüksek lisans eğitimini tamamladı. Türkiye'de milli eğitim Bakanligina bagli ortaokul ve Liselerde sekiz yıl öğretmen olarak çalıştı.
                                     <br></br><br></br>
                                     1995 yılında Samsun 19 Mayıs Üniversitesinin İslam Tarihi bölümünden- ‘Bu Ümmetin Emini’ ismi ile Hz. Peygamber tarafindan isimlendirilen ve ilk Müslümanlardan olan 'Ebu Ubeyde Bin Cerrah'in hayatını konu alan teziyle yüksek lisans diplomasi aldı.
@@ -54,9 +54,9 @@ const AboutMe = () => {
                                     4. Tajweed Kurallarını Öğrenme Kitabı
                                     <br></br>
                                     5. Arapça Yazma ve Okuma Aktivite Kitabı
-                                </div>
+                                </>
                             ) : (
-                                <div>
+                                <>
                                     SALIH HAKKI BAK was born in Trabzon, Turkiye. He completed his Bachelor of Theology at Samsun University, and later completed his Masters in Islamic History from the same University. He worked as a secondary school teacher in the department of national education in Turkiye for eight years.
                                     <br></br><br></br>
                                     In 1995, he obtained a master’s degree from Samsun’s 19 May University with a thesis on the life of one of the first Muslims; ‘Abu Ubayda Ibn Jarrah’.
@@ -78,7 +78,7 @@ const AboutMe = () => {
                                     4. A Guide to Learn Tajweed Rules.
                                     <br></br>
                                     5. Arabic Writing and Reading Activity Book
-                                </div>
+                                </>
                             )}
                         </p>
                     </div>
