@@ -21,8 +21,9 @@ const ContactMe = () => {
 
         let templateId = 'template_wwi1ee6'
         let publicKey = 'b64CyvxpIiL7d_bs1'
+        let serviceId = 'service_rm0f7ap'
 
-        emailjs.sendForm('service_v4ckj2d', templateId, form.current, publicKey)
+        emailjs.sendForm(serviceId, templateId, form.current, publicKey)
             .then((result) => {
                 console.log(result.text);
                 setSuccessMessage('Message sent successfully!');
